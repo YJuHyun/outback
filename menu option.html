@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>메뉴옵션페이지</title>
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="import.css">
+</head>
+<body>
+  <section class="top_side">
+      <a href="./menu.html">
+        <span class="material-symbols-outlined">
+          arrow_back_ios
+        </span>
+      </a>
+      <h2>메뉴 옵션 선택</h2>
+    </div>
+  </section>
+  <section class="img_area">
+    <img src="./images/garlick_ribeye_set2.jpg" alt="">
+  </section>
+    <div class="name_text_area">
+      <h3>갈릭 립아이 스테이크 2인 세트</h3>
+      <p>구운 마늘과 마늘칩이 어우러진 꽃등심 스테이크 샐러드와 스프 기본제공
+      </p>
+    </div>
+    <div class = "option">
+      <div class="roast_option">
+        <h4>갈릭 립아이 굽기</h4>
+          <input type="radio" name="roast_button" id="medium" value="medium" checked><label for="medium">미디움</label>
+          <br>
+          <input type="radio" name="roast_button" id="rare" value="rare"><label for="rare">레어</label>
+      </div>
+      <div class="side_option">
+        <h4>사이드 선택</h4>
+          <input type="radio" name="side_button" id="medium" value="medium" checked><label for="medium">오지 치즈 후라이(M)</label>
+          <br>
+          <input type="radio" name="side_button" id="large" value="large"><label for="large">오지 치즈 후라이(L)</label>
+      </div>
+      <div class="drink_option">
+        <h4>음료 선택</h4>
+          <input type="radio" name="drink_button" id="coke" value="coke" checked><label for="coke">콜라</label>
+          <br>
+          <input type="radio" name="drink_button" id="cider" value="cider"><label for="cider">사이다</label>
+      </div>
+      <div class="count_option clearfix">
+        <div class="count">
+          <span><img src="./images/icon/minus_circle.png" alt="마이너스 아이콘"></span>
+          <p>1</p>
+          <span><img src="./images/icon/plus_circle.png" alt="플러스 아이콘"></span>
+        </div>
+        <div class="pay"><span>70,900원</span></div>
+      </div>
+    </div>
+    <div class="short_btn">
+      <a class="btn1" href="#">장바구니</a>
+      <a class="btn2" href="#">주문하기</a>
+    </div>
+      
+  
+  <script src="./js/menu.js"></script>
+  <script src="./js/global.js"></script>
+</body>
+</html>

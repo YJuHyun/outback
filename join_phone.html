@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="import.css">
+</head>
+<body>
+  <section class="top_side login_top">
+    <h2 class="logo">
+      <img src="./images/icon/img_bottom_brand2.jpg" alt="">
+    </h2>
+  </section>
+  <section class="join_form_sec">
+    <form name = "join_phone" id="join_phone_form" class="join_form">
+      <label for="join_phone">이름</label>
+      <input type="text" id="join_name" >
+      <label>주민등록번호</label>
+      <div class="jumin">
+        <input type="number" name="jumin1" oninput="maxLengthCheck(this)" maxlength=7/><input type="password" name="jumin2" maxlength=7 />
+      </div>
+      <label for="join_phone">전화번호</label>
+      <input type="tel" id="join_phone" >
+    </form>
+  </section>  
+  <a class="long_btn btn" href="./join_number.html">작성완료</a>
+  <script src="./js/menu.js"></script>
+  <script src="./js/global.js"></script>
+  <script type="text/javascript">
+    function maxLengthCheck(object){
+      if (object.value.length > object.maxLength){
+        object.value = object.value.slice(0, object.maxLength);
+      }    
+    }
+  </script>
+</body>
+</html>

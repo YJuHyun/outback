@@ -1,0 +1,136 @@
+
+
+.agree_warp{
+  margin-top: 30px;
+}
+
+.agree_warp .agree:nth-child(4){
+  border-bottom: 1px solid #C8C8C8;
+}
+
+.border.agree{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0;
+}
+
+.border.agree h4{
+  font-size: 14px;
+}
+
+.agree_warp .border.agree > h4:nth-child(1){
+  padding-right: 45px;
+}
+
+.border.agree button{
+  width: 45px;
+  height: 22px;
+  color: #fff;
+  border-radius: 5px;
+  background: #C10A0A;
+  border: 0;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+.border.agree p{
+  color: #868686;
+  font-size: 12px;
+  display: none;
+}
+
+.border.agree p.on{
+  display: block;
+}
+
+.long_btn.white{
+background: #fff;
+color: #C10A0A;
+border: 1px solid #C10A0A;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+}
+
+.long_btn.white img{
+  padding-right: 8px;
+}
+.join_form {
+  padding: 10px 16px;
+  display: flex;
+  flex-direction: column;
+}
+.join_form label{
+  font-size: 14px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 12px;
+}
+.join_form input[type="text"],
+.join_form input[type="password"],
+.join_form input[type="tel"],
+.join_form input[type="number"]{
+  font-size: 14px;
+  padding: 15px 14px;
+  border-radius: 5px;
+  border: 1px solid #C8C8C8;
+  margin-bottom: 20px;
+}
+.join_form input[type="text"]:focus,
+.join_form input[type="password"]:focus,
+.join_form input[type="tel"]:focus,
+.join_form input[type="number"]:focus{
+  outline: 1px solid #C10A0A;
+}
+.sub_txt{
+  font-size: 12px;
+  color: #868686;
+}
+
+.jumin{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.jumin input{
+  width:48%;
+  margin: 0;
+}
+.number_label{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+#join_number_form .number_label span{
+  color: #C10A0A;
+  font-size: 12px;
+  font-weight: 600;
+}
+.number_list{
+  display: flex;
+  justify-content: space-between;
+}
+.number_list input{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+#join_number_form .sub_txt{
+  display: flex;
+  align-items: center;
+}
+#join_number_form span{
+  text-align: left;
+  font-size: 20px;
+  color: #868686;
+}
+
+.popup.join_number {
+  height: auto;
+  padding: 0 20px 30px;
+}

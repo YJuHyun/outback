@@ -1,0 +1,34 @@
+/* 카메라로 바코드 인식하기*/
+.barcode_body{
+  padding: 0;
+  background: #656565 ;
+}
+
+.camera_area{
+  padding: 130px 0;
+}
+
+.camera_area div{
+  background: #F2F2F2;
+  padding: 125px 0;
+  text-align: center;
+}
+
+.camera_area span{
+  font-size: 24px;
+}
+
+/* 갤러리에서 이미지 업로드 하기 */
+.gallery_body{
+  padding: 0;
+  background: #F2F2F2;
+}
+
+.gallery_area{
+  text-align: center;
+  padding: 345px 0 0;
+}
+
+.gallery_area div{
+  font-size: 14px;
+}

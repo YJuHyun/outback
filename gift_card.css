@@ -1,0 +1,82 @@
+/* 기프트카드 1 */
+.card_section{
+  text-align: center;
+}
+.card_section .dash_line{
+  border: 1px dashed #C10A0A;
+  border-radius: 10px;
+  width: 253px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 25px 43px;
+}
+
+.card_section p{
+  font-size: 14px;
+  font-weight: 600;
+  color: #222222;
+  margin-top: 20px;
+}
+
+.card_section .border,
+.gift_card_btn .border{
+  border-bottom: 0;
+  padding: 30px 16px;
+  width: 100%;
+}
+
+.gift_card_btn .btn{
+  position: initial;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.gift_card_btn .btn:nth-child(2){
+  margin-top: 10px;
+  color:#C10A0A;
+  background: #fff;
+  border: 1px solid #C10A0A;
+}
+
+/* 기프트카드 3 */
+.dash_line .add_btn_circle{
+  background: #C10A0A;
+  border-radius: 50%;
+  width: 24px;
+  margin: 36px 0;
+}
+
+.gift_card .border:nth-child(2){
+  border: 0;
+}
+
+.gift_card .material-symbols-outlined,
+.gift_card .material-symbols-outlined.on{
+  transform: rotate(0deg);
+}
+
+
+/* 기프트카드 4 */
+.gift_card_register .border:nth-child(2) {
+    border: 0;
+}
+
+.gift_card_register ul li{
+  margin-left: 18px;
+  position: relative;
+}
+
+.gift_card_register ul li::before{
+  content: "";
+  display: block;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #868686;
+  position: absolute;
+  top: 5px;
+  left: -10px;
+}
