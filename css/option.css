@@ -1,0 +1,96 @@
+    .clearfix::after{
+      content: "";
+      display: block;
+      clear: both;
+    }
+    .name_text_area p{
+      margin-bottom: 14px;
+    }
+
+    .roast_option,
+    .side_option,
+    .drink_option,
+    .count_option{
+      border-top: 1px solid #C8C8C8;
+      padding: 14px 0;
+    }
+
+    .option h4, 
+    .option input, 
+    .option .count{
+      margin-left: 16px;
+    }
+
+    .option h4{
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .option input{
+      margin-bottom: 2px;
+    }
+
+    .option label{
+      font-size: 12px;
+      font-weight: 500;
+      margin-left: 4px;
+    }
+
+    [type="radio"]{
+      appearance: none;
+      background: url(../images/icon/check_circle.png) 0 0 ;
+      width: 20px;
+      height: 20px;
+    }
+
+    [type="radio"]:checked{
+      background: url(../images/icon/check_circle.png) -20px 0 ;
+    }
+
+    .option .count{
+      float: left;
+      display: flex;
+    }
+
+    .option .count p{
+      margin: 3px 15px;
+      font-size: 12px;
+    }
+
+    .option .pay{
+      float: right;
+      margin-right: 16px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .short_btn{
+      margin: 30px 16px 20px;
+      display: flex;
+      justify-content: space-between;
+    } 
+
+    .short_btn a{
+      display: inline-block;
+      width: 48%;
+      height: 44px;
+      border-radius: 5px;
+      text-align: center;
+      padding: 14px;
+    }
+
+    .btn1{
+      border: 1px solid #C10A0A ;
+      color: #C10A0A;
+      font-weight: 600;
+    }
+
+    .btn2{
+     background: #C10A0A ;
+     color: #fff;
+     font-weight: 600;
+    }
+
+
+
+    

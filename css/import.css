@@ -1,0 +1,17 @@
+@import url(./reset.css);
+@import url(./global.css);
+@import url(./menu.css);
+@import url(./main.css);
+@import url(./order.css);
+@import url(./option.css);
+@import url(./gift_card.css);
+@import url(./barcode.css);
+@import url(./login.css);
+@import url(./join.css);
+@import url(./adress_list.css);
+@import url(./adress_map.css);
+@import url(./adress_popup.css);
+@import url(./cart.css);
+@import url(./index_log_popup.css);
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable.css");

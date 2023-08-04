@@ -3,7 +3,10 @@ $( document ).ready( function() {
     slidesPerView: 'auto',
     spaceBetween: 17,
     grabCursor: true,
-      
-  })
+  });
+
+  $(".popup .short_btn .btn1").on("click", function(e){
+    e.preventDefault();
+  });
   
-})
+});

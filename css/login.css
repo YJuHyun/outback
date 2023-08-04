@@ -1,0 +1,148 @@
+.login_page{
+  text-align: center;
+}
+#auto_login{
+  appearance: none;
+  background: url(../images/icon/check_circle.png) 0 0 ;
+  width: 18px;
+  height: 18px;
+  background-size:cover;
+}
+
+#auto_login:checked{
+  background: url(../images/icon/check_circle.png) -18px 0 ;
+  background-size:cover;
+}
+
+.login_page .popup{
+  text-align: left;
+}
+.login_page .popup .btn2{
+  padding: 12px 0;
+}
+#login_form{
+  padding: 10px 16px;
+  display: flex;
+  flex-direction: column;
+}
+#login_form p{
+  text-align: left;
+  font-size: 12px;
+  color: #DC0000;
+  margin-bottom: 8px;
+  display: flex;
+}
+#login_form p span{
+  text-align: left;
+  font-size: 12px;
+  color: #DC0000;
+  margin-bottom: 8px;
+  margin-right: 4px;
+}
+#login_form input::placeholder{
+  font-size: 14px;
+}
+
+#login_form input[type="text"],
+#login_form input[type="password"]{
+  font-size: 14px;
+  padding: 15px 14px;
+  border-radius: 5px;
+  border: 1px solid #C8C8C8;
+  margin-bottom: 8px;
+}
+#login_form input[type="text"]:focus,
+#login_form input[type="password"]:focus{
+  outline: 1px solid #C10A0A;
+}
+.login_bot_area{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.login_bot_area label{
+  font-size: 12px;
+  color: #868686;
+}
+.join_find{
+  display: flex;
+  align-items: center;
+}
+.join_find a{
+  font-size: 12px;
+  color: #868686;
+}
+
+.join_find a:nth-child(1){
+  transform: translateX(-20px);
+  position: relative;
+}
+
+.join_find a:nth-child(1)::after{
+  content: "";
+  display: block;
+  height: 10px;
+  width: 1px;
+  background: #868686;
+  position: absolute;
+  top: 1px;
+  right: -10px;
+
+
+}
+.login_page_btn{
+  width: calc(100% - 32px);
+  margin: 0 auto;
+  border: 0;
+  border-radius: 5px;
+  padding: 14px 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+.login_btn{
+  background-color: #C10A0A;
+  color: #fff;
+}
+.line_or {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 20px 16px;
+  font-size: 0;
+  line-height: 0;
+}
+
+.or{
+  display: inline-block;
+  width: 40px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #868686;
+}
+.line_or::after,
+.line_or::before{
+  display: inline-block;
+  width: calc(50% - 20px);
+  height: 1px;
+  margin: 8px 0;
+  background-color: #868686;
+  vertical-align: top;
+  content: "";
+  opacity: 0.6;
+}
+.kakao_btn{
+background: #FEE102 url(../images/icon/kakao_login.svg) 20px 13px/18px no-repeat;
+margin-bottom: 12px;
+}
+.naver_btn{
+  background: #03CF5D url(../images/icon/naver_login.svg) 20px 13px/18px no-repeat;
+  margin-bottom: 12px;
+  color: #fff;
+}
+.apple_btn{
+  background: #fff url(../images/icon/apple_login.svg) 20px 13px/18px no-repeat;
+  margin-bottom: 12px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}

@@ -1,0 +1,116 @@
+
+
+.adress_search{
+   margin: 0 auto;
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 20
+  }
+
+form{
+    position: relative;
+}
+
+input[id="search"]{
+    width: 343px;
+    height: 44px;
+    border-radius: 5px;
+    margin: 20px 0 0 16px;
+    background: rgba(144, 115, 84, 0.1);
+    border: 0;
+}
+
+input[id="search"]+ span{
+    position: absolute;
+    left: 33px;
+    bottom: 17%;
+}
+
+input[id="search"]+ span.off{
+    display: none;
+}
+
+input[id="search"]::placeholder{
+    color: #222;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 44px;
+}
+
+.adress_search .border_adress {
+    margin: 30px 0;
+}
+
+.adress_search .border_adress h5{
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+
+.adress_search .border_adress h5 span{
+padding: 0 10px 0 30px;
+}
+
+.adress_search .border_adress hr{
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.adress_select{
+    margin: 0 16px
+}
+
+.adress_select ul li{
+    width: 343px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.adress_select ul li a{
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+}
+
+
+.adress_select ul li a span{
+    padding-right: 12px;
+}
+.adress_add{
+    width: 343px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid #C10A0A;
+    display: flex;
+}
+
+.adress_add a{
+    color: #C10A0A;
+    font-weight: bold;
+    padding: 0 12px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.adress_add a span{
+    padding: 5px;
+}
+
+.adress_add a p{
+    font-size: 14px;
+    color: #C10A0A;
+    padding-left: 10px;
+}

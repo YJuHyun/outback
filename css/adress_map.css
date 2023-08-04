@@ -1,0 +1,33 @@
+
+
+
+
+.background_map h3{
+    margin:30px 0 14px 16px;
+}
+
+.background_map p{
+    margin-left: 16px;
+}
+
+.popup{
+    position: absolute;
+    width: 342px;
+    height: 230px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-171px, -115px);
+    background: #fff;
+    border-radius: 5px;
+    padding: 0 30px;
+}
+
+.popup h4{
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.popup p{
+    font-size: 14px;
+    color: #868686;
+}

@@ -8,19 +8,19 @@
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="import.css">
+  <link rel="stylesheet" href="./css/import.css">
 </head>
 <body>
   <section class="top_side main_top">
-      <a href="#">
+      <a href="non_loding.html">
         <span class="material-symbols-outlined">
           notifications
         </span>
       </a>
       <h2 class="logo">
-        <img src="./images/icon/img_bottom_brand2.jpg" alt="">
+        <img src="./images/icon/img_bottom_brand2.jpg" alt="아웃백로고">
       </h2>
-      <a href="##">
+      <a href="non_loding.html">
         <span class="material-symbols-outlined right">
           qr_code_scanner
         </span>
@@ -33,7 +33,7 @@
       회원이 되시면 다양한 혜택과 리워드를 누리실 수 있습니다.
     </p>
     <div class="member_btns">
-      <button class="join">회원가입</button>
+      <button class="join" onclick="location.href='./join.html'">회원가입</button>
       <button class="login" onclick="location.href='./login.html' ">로그인</button>
     </div>
   </section>
@@ -42,27 +42,27 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <a href="#">
-            <img src="./images/delivary_mv2.jpg" alt="">
+            <img src="./images/delivary_mv2.jpg" alt="메인bg">
           </a>
         </div>
         <div class="swiper-slide">
           <a href="#">
-            <img src="./images/delivary_mv2.jpg" alt="">
+            <img src="./images/delivary_mv2.jpg" alt="메인bg">
           </a>
         </div>
         <div class="swiper-slide">
           <a href="#">
-            <img src="./images/delivary_mv2.jpg" alt="">
+            <img src="./images/delivary_mv2.jpg" alt="메인bg">
           </a>
         </div>
         <div class="swiper-slide">
           <a href="#">
-            <img src="./images/delivary_mv2.jpg" alt="">
+            <img src="./images/delivary_mv2.jpg" alt="메인bg">
           </a>
         </div>
         <div class="swiper-slide">
           <a href="#">
-            <img src="./images/delivary_mv2.jpg" alt="">
+            <img src="./images/delivary_mv2.jpg" alt="메인bg">
           </a>
         </div>
       </div>
@@ -73,119 +73,120 @@
     <h3>메뉴 바로 가기</h3>
     <ul>
       <li>
-        <a href="menu.html">
+        <a href="menu.html?active=set">
           <figure>
             <div class="main_img_wrap">
-              <img src="images/homeparty_set4.jpg" alt="">
+              <img src="images/homeparty_set4.jpg" alt="홈파티 4인 세트">
             </div>
             <figcaption>세트메뉴</figcaption>
           </figure>
         </a>
       </li>
       <li>
-        <a href="menu.html">
+        <a href="menu.html?active=steak">
           <figure>
             <div class="main_img_wrap">
-              <img src="images/garlick_ribeye.jpg" alt="">
+              <img src="images/garlick_ribeye.jpg" alt="마늘 립아이 스테이크">
             </div>
             <figcaption>스테이크</figcaption>
           </figure>
         </a>
       </li>
       <li>
-        <a href="menu.html">
+        <a href="menu.html?active=side">
           <figure>
             <div class="main_img_wrap">
-              <img src="images/baby_back_ribs.jpg" alt="">
+              <img src="images/baby_back_ribs.jpg" alt="베이비 백 립 스테이크">
             </div>
             <figcaption>립 에피타이저</figcaption>
           </figure>
         </a>
       </li>
       <li>
-        <a href="menu.html">
+        <a href="menu.html?active=pasta">
           <figure>
             <div class="main_img_wrap">
-              <img src="images/spicy_seafood_aglio_eolio.jpg" alt="">
+              <img src="images/spicy_seafood_aglio_eolio.jpg" alt="스파이시 씨푸드 알리오 올리오">
             </div>
             <figcaption>파스타</figcaption>
           </figure>
         </a>
       </li>
       <li>
-        <a href="menu.html">
+        <a href="menu.html?active=rice">
           <figure>
             <div class="main_img_wrap">
-              <img src="images/kakadu_kimchi_griller.jpg" alt="">
+              <img src="images/kakadu_kimchi_griller.jpg" alt="카카두 김치 그릴러">
             </div>
             <figcaption>라이스</figcaption>
           </figure>
         </a>
       </li>
       <li>
-        <a href="menu.html">
+        <a href="menu.html?active=salad">
           <figure>
             <div class="main_img_wrap">
-              <img src="images/chicken_tender_salad.jpg" alt="">
+              <img src="images/chicken_tender_salad.jpg" alt="치킨 텐더 샐러드">
             </div>
             <figcaption>샐러드</figcaption>
           </figure>
         </a>
       </li>
       <li>
-        <a href="menu.html">
+        <a href="menu.html?active=soup">
           <figure>
             <div class="main_img_wrap">
-              <img src="images/mushroom_soup.jpg" alt="">
+              <img src="images/mushroom_soup.jpg" alt="양송이 수프">
             </div>
             <figcaption>스프 사이드</figcaption>
           </figure>
           </a>
       </li>
       <li>
-        <a href="menu.html"></a>
-        <figure>
-          <div class="main_img_wrap">
-            <img src="images/s.pellegrino.jpg" alt="">
-          </div>
-          <figcaption>음료</figcaption>
-        </figure>
+        <a href="menu.html?active=beverages">
+          <figure>
+            <div class="main_img_wrap">
+              <img src="images/s.pellegrino.jpg" alt="산펠레그리노 (오렌지)">
+            </div>
+            <figcaption>음료</figcaption>
+          </figure>
+        </a>
       </li>
     </ul>
   </section>
   <nav class="gnb">
     <ul>
       <li>
-        <a href="#">
+        <a href="non_loding.html">
           <span class="material-symbols-outlined">
             storefront
           </span>
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="cart_default.html">
           <span class="material-symbols-outlined">
             shopping_cart
           </span>
         </a>
       </li>
       <li class="mid_btn">
-        <a href="#">
-          <img src="./images/icon/logo_white_type_02.png" alt="">
+        <a href="index_log.html">
+          <img src="./images/icon/logo_white_type_02.png" alt="아웃백로고">
         </a>
       </li>
       <li class="none">
         #
       </li>
       <li>
-        <a href="#">
+        <a href="order_com.html">
           <span class="material-symbols-outlined">
             article
           </span>
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="non_loding.html">
           <span class="material-symbols-outlined">
             person
           </span>

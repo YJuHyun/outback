@@ -13,8 +13,10 @@ $( document ).ready( function() {
       $('.pw_blank').show();
     }
   })
+  
   $(".dim").hide()
   $(".login_page .popup").hide()
+
   $(".login_btn").on("click", function(e){
     e.preventDefault();
     $(".dim").show();

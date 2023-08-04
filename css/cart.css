@@ -1,0 +1,103 @@
+
+/* 장바구니 기본 */
+
+.cart_box{
+  margin-top: 270px;
+  text-align: center;
+}
+
+.cart_box p{
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* 장바구니/상품있음 */
+
+
+.cart_section{
+  position: relative;
+}
+
+.order_info_warp.cart{
+  position: relative;
+  border-top: 0;
+  padding: 30px 16px;
+}
+
+.order_info_warp ul li{
+  font-size: 12px;
+}
+
+.close{
+  position: absolute;
+  right: 0;
+  margin-right: 16px;
+  top: 28px;
+  font-size: 14px;
+}
+
+.close span{
+  font-size: 22px;
+}
+
+.ea{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  bottom: 16px;
+  margin-right: 16px;
+
+}
+
+
+.ea_wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.ea_wrap a{
+  padding: 16px;
+  display: flex;
+}
+
+.ea p{
+  margin-left: 27px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.popup.cart_pop{
+  height: 195px;
+}
+
+.add_btn{
+  background: #fff;
+  border:1px solid #C10A0A;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 0;
+  bottom: 20px;
+  border-radius: 5px;
+  left: 16px;
+  margin: 30px 16px;
+  cursor: pointer;
+}
+
+.add_btn a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add_btn p{
+  color: #C10A0A;
+  padding-left: 8px;
+}
+
+.order_info_warp.cart div{
+  width: 100px;
+}

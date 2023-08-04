@@ -7,7 +7,7 @@
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,300,0,0" />
-  <link rel="stylesheet" href="import.css">
+    <link rel="stylesheet" href="./css/import.css">
   
 </head>
 <body>
@@ -33,10 +33,13 @@
         <li>배달중</li>
         <li>배달완료</li>
       </ul>
+      <div class="delivery_bar">#</div>
+      <div class="delivery_bar_active">#</div>
     </div>
   </section>
   <div class="border bottom0 block">
-    <div class="order_info_warp">
+    <div class="order_info_warp flex_wrap">
+      <h3>주문내역 (1건)</h3>
       <div><img src="./images/garlick_ribeye_set2.jpg" alt="립아이갈릭2세트"></div>
       <ul>
         <li>메뉴명 : 갈릭 립아이 스테이크 2인 세트</li>
@@ -45,7 +48,48 @@
       </ul>
     </div>
   </div>
+  <nav class="gnb">
+    <ul>
+      <li>
+        <a href="non_loding.html">
+          <span class="material-symbols-outlined">
+            storefront
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="cart_default.html">
+          <span class="material-symbols-outlined">
+            shopping_cart
+          </span>
+        </a>
+      </li>
+      <li class="mid_btn">
+        <a href="index_log.html">
+          <img src="./images/icon/logo_white_type_02.png" alt="아웃백로고">
+        </a>
+      </li>
+      <li class="none">
+        #
+      </li>
+      <li>
+        <a href="order_com.html">
+          <span class="material-symbols-outlined">
+            article
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="non_loding.html">
+          <span class="material-symbols-outlined">
+            person
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
     <script src="./js/menu.js"></script>
     <script src="./js/global.js"></script>
+    <script src="./js/order.js"></script>
 </body>
 </html>
