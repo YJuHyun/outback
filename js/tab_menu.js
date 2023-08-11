@@ -19,6 +19,7 @@ $( document ).ready( function() {
   let searchParams;
   var paramMenu = ()=>{
     searchParams = new URLSearchParams(location.search);
+    console.log(searchParams)
       let paramVal;
       for (let param of searchParams) {
           paramVal = param[1]
