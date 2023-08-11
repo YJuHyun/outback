@@ -4,20 +4,48 @@
 
 .background_map{
     /* background-color: rgba(0, 0, 0, 0.6); */
-    height: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 .background_map h3{
-    margin:30px 0 14px 16px;
+    margin:30px 16px 14px 16px;
 }
 
 .background_map p{
-    margin-left: 16px;
+    margin: 0 16px;
 }
 
 .background_map .top_side{
     background: none;
+}
+
+.img_wrap{
+    width: 100%;
+    max-width: 375px;
+    position: relative;
+    background: url(../images/map.png) center no-repeat;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.img_wrap .location{
+    position: absolute;
+    right: 130px;
+    top: 240px;
+}
+
+.img_wrap .explore{
+    border: 1px solid #fff;
+    background:#fff;
+    border-radius: 50px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 16px;
+    z-index: 10;
+    bottom: 9px;
 }
 
 .popup{

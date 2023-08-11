@@ -4,4 +4,7 @@ $( document ).ready( function() {
     e.preventDefault();
     $(".popup, .dim").css("display", "none")
   });
-})
+
+  // $(".img_wrap").css("height", $(".img_wrap").width() );
+
+});

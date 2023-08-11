@@ -16,19 +16,24 @@ $( document ).ready( function() {
     $(".menu_img ul").eq(idx).addClass("on")
   })
 
+  let searchParams;
   var paramMenu = ()=>{
-    let searchParams = new URLSearchParams(location.search);
-    let paramVal;
-    for (let param of searchParams) {
-        paramVal = param[1]
+    searchParams = new URLSearchParams(location.search);
+      let paramVal;
+      for (let param of searchParams) {
+          paramVal = param[1]
+      }
+      let startIdx = $(".menu_img ul").filter($('.' + paramVal)).index();
+      $(".tab_menu li").removeClass("on")
+      $(".top_side .menu").removeClass("on")
+      $(".menu_img ul").removeClass("on")
+      $(".tab_menu li").eq(startIdx).addClass("on")
+      $(".top_side .menu").eq(startIdx).addClass("on")
+      $(".menu_img ul").eq(startIdx).addClass("on")
     }
-    let startIdx = $(".menu_img ul").filter($('.' + paramVal)).index();
-    $(".tab_menu li").removeClass("on")
-    $(".top_side .menu").removeClass("on")
-    $(".menu_img ul").removeClass("on")
-    $(".tab_menu li").eq(startIdx).addClass("on")
-    $(".top_side .menu").eq(startIdx).addClass("on")
-    $(".menu_img ul").eq(startIdx).addClass("on")
-  }
+  
+ if(searchParams){
   paramMenu()
+ }
+  
 })

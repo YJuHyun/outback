@@ -1,12 +1,4 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable.css");
-
-.main_loding_wrap{
-  margin: 0 auto;
-  width: 100%;
-  height: 100vh;
-  position: relative;
-}
-
 .sub_loding_wrap{
   position: fixed;
   left: 50%;
@@ -15,15 +7,15 @@
   margin: 0 auto;
 }
 
-.logo_wrap{
+.sub_loding_wrap .logo_wrap{
   min-width: 163px;
 }
 
-.logo_wrap img{
+.sub_loding_wrap .logo_wrap img{
   width: 100%;
 }
 
-.text_wrap{
+.sub_loding_wrap .text_wrap{
   margin-top: -10px;
   text-align: center;
   color: #222;
@@ -31,6 +23,6 @@
   font-size: 14px;
 }
 
-.text_wrap p{
+.sub_loding_wrap .text_wrap p{
   margin-bottom: 3px;
 }

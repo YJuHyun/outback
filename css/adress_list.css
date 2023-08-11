@@ -17,13 +17,14 @@
 
 form{
     position: relative;
+    padding: 0 16px;
+
 }
 
 input[id="search"]{
-    width: 343px;
+    width: 100%;
     height: 44px;
     border-radius: 5px;
-    margin: 20px 0 0 16px;
     background: rgba(144, 115, 84, 0.1);
     border: 0;
 }
@@ -31,7 +32,7 @@ input[id="search"]{
 input[id="search"]+ span{
     position: absolute;
     left: 33px;
-    bottom: 17%;
+    bottom: 27%;
 }
 
 input[id="search"]+ span.off{
@@ -68,7 +69,7 @@ padding: 0 10px 0 30px;
 }
 
 .adress_select ul li{
-    width: 343px;
+    width: 100%;
     height: 44px;
     border-radius: 5px;
     border: 1px solid #ddd;
@@ -89,7 +90,7 @@ padding: 0 10px 0 30px;
     padding-right: 12px;
 }
 .adress_add{
-    width: 343px;
+    width: 100%;
     height: 44px;
     border-radius: 5px;
     border: 1px solid #C10A0A;

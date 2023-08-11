@@ -8,7 +8,7 @@ $( document ).ready( function() {
    $(".popup").show();
  })
 
-  $(".popup .short_btn .btn1", "ea_wrap a").on("click", function(e){
+  $(".popup .short_btn .btn1", ".ea_wrap a").on("click", function(e){
     e.preventDefault();
   });
 })

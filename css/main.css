@@ -67,13 +67,17 @@
 .benefit a:first-child{
   border-right: 1px solid #c8c8c8;
 }
+.slide_sec{
+  padding: 0 16px;
+}
 .main_slide{
-  margin: 20px 16px 30px;
-  height: 200px;
-  border-radius: 5px;
+  margin: 20px 0 30px;
+  width: 100%;
+
 }
 .main_slide img{
-  height: 100%;
+  width: 100%;
+  border-radius: 5px;
 }
 .main_slide .swiper-pagination-fraction{
   background-color: #434343;

@@ -8,5 +8,7 @@ $( document ).ready( function() {
     loop: true,
   })
   $(".main_img_wrap").css("height", $(".main_img_wrap").width() );
-  
+  $(window).on("resize", function(){
+    $(".main_img_wrap").css("height", $(".main_img_wrap").width() );
+  })
 })

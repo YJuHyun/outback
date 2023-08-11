@@ -59,13 +59,14 @@
 }
 
 .long_btn.white{
-background: #fff;
-color: #C10A0A;
-border: 1px solid #C10A0A;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 14px;
+  background: #fff;
+  color: #C10A0A;
+  border: 1px solid #C10A0A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 11px 0;
 }
 
 .long_btn.white img{
