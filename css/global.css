@@ -111,7 +111,15 @@ body{
   font-size: 12px;
   line-height: 1.2;
 }
-
+.btn_bg{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  height: 84px;
+  z-index: 9;
+}
 .btn{
   position: fixed;
   width: calc(100% - 32px);

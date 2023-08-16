@@ -39,7 +39,6 @@
   border-radius: 5px;
   border: 0;
   font-weight: 500;
-  margin-bottom: 14px;
 }
 .member_btns button.join{
   background-color: #c10a0a;
@@ -115,10 +114,11 @@
 .menu_category li figure{
   display: flex;
   justify-content: center;
-  font-size: 12px;
+  font-size: 14px;
   color: #434343;
   text-align: center;
   flex-direction: column;
+  font-weight: 700;
 }
 .menu_category li figure .main_img_wrap{
   display: flex;

@@ -17,24 +17,23 @@ $( document ).ready( function() {
   })
 
   let searchParams;
-  var paramMenu = ()=>{
-    searchParams = new URLSearchParams(location.search);
-    console.log(searchParams)
-      let paramVal;
-      for (let param of searchParams) {
-          paramVal = param[1]
+
+  var paramMenu = () => {
+      searchParams = new URLSearchParams(location.search);
+      if (searchParams.has('active')) { 
+          let paramVal;
+          for (let param of searchParams) {
+              paramVal = param[1];
+          }
+          let startIdx = $(".menu_img ul").filter($('.' + paramVal)).index();
+          $(".tab_menu li").removeClass("on");
+          $(".top_side .menu").removeClass("on");
+          $(".menu_img ul").removeClass("on");
+          $(".tab_menu li").eq(startIdx).addClass("on");
+          $(".top_side .menu").eq(startIdx).addClass("on");
+          $(".menu_img ul").eq(startIdx).addClass("on");
       }
-      let startIdx = $(".menu_img ul").filter($('.' + paramVal)).index();
-      $(".tab_menu li").removeClass("on")
-      $(".top_side .menu").removeClass("on")
-      $(".menu_img ul").removeClass("on")
-      $(".tab_menu li").eq(startIdx).addClass("on")
-      $(".top_side .menu").eq(startIdx).addClass("on")
-      $(".menu_img ul").eq(startIdx).addClass("on")
-    }
+  }
   
- if(searchParams){
-  paramMenu()
- }
-  
+  paramMenu();
 })

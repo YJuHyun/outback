@@ -50,13 +50,20 @@
     .option .count{
       float: left;
       display: flex;
+      width: 73px;
+      justify-content: space-between;
+      align-items: center;
     }
-
+    .option .count a{
+      height: 18px;
+    }
     .option .count p{
       margin: 3px 15px;
       font-size: 12px;
     }
-
+    .option .ea_show{
+      font-size: 12px;
+    }
     .option .pay{
       float: right;
       margin-right: 16px;

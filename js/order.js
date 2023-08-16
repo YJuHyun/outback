@@ -1,5 +1,3 @@
 $( document ).ready( function() {
-  $(".order_info_warp div").css("height", $(".order_info_warp div").width())
-
-  
+  $(".order_img_wrap").css("height", $(".order_img_wrap").width())
 })

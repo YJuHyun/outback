@@ -7,7 +7,7 @@
 }
 
 
-#agree_button{
+.agree_button{
   appearance: none;
   background: url(../images/icon/check_circle.png) 0 0 ;
   width: 18px;
@@ -15,7 +15,7 @@
   background-size:cover;
 }
 
-#agree_button:checked{
+.agree_button:checked{
   background: url(../images/icon/check_circle.png) -18px 0 ;
   background-size:cover;
 }
@@ -29,7 +29,6 @@
 
 .border.agree h4{
   font-size: 14px;
-  width: 75%;
 }
 
 .border.agree button{
